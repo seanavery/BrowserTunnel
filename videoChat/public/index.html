@@ -1,0 +1,21 @@
+<DOCTYPE! HTML>	
+<html>
+	<head>
+		<script src="/browserConfig.js"></script>
+		<script src="/videoCall.js"></script>
+		<script>
+			var start2 = function() {
+				console.log("hello from the start function	");
+			}
+		</script>
+	</head>
+	<body onload="start2()">
+		<div id="loading_state">
+			<h1>loading...</h1>
+		</div>
+		<div id="open_call_state">
+			<video id="remote_video"></video>
+			<video id="local_video"></video>
+		</div>
+	</body>
+</html>
